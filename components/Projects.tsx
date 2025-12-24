@@ -94,7 +94,7 @@ const Projects: React.FC = () => {
               </div>
               <div className="p-8">
                 <h4 className="text-2xl font-black text-[#0A5C8F] mb-3">برج برايد اند جوي - مكاتب إدارية</h4>
-                <p className="text-gray-600 mb-6 leading-relaxed">مكاتب إدارية حديثة نملكها ونديرها ونؤجرها بمواصفات عالمية في موقع استراتيجي</p>
+                <p className="text-gray-600 mb-6 leading-relaxed">مكاتب إدارية حديثة نديرها ونؤجرها بمواصفات عالمية في موقع استراتيجي</p>
                 <a 
                   href="https://maps.app.goo.gl/GyqiScW2PzedfpYHA?g_st=iw" 
                   target="_blank" 
