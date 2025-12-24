@@ -35,9 +35,9 @@ const Contact: React.FC = () => {
                       rel="noopener noreferrer"
                       className="text-gray-600 leading-relaxed text-sm hover:text-[#0A5C8F] transition-colors"
                     >
-                      مكة المكرمة – الحي جبل النور <br />
-                      طريق الملك فيصل الفرعي – بجوار مكتبة جرير <br />
-                      الدور السادس – مكتب 3 / مكتب 4
+                      مكة المكرمة – حي جبل النور <br />
+                      طريق الملك فيصل بجوار مكتبة جرير <br />
+                      برج برايد اند جوي الدور السادس مكتب ٣
                     </a>
                   </div>
                 </div>
@@ -62,7 +62,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div className="flex-1">
                     <h4 className="font-bold text-lg mb-2 text-[#0A5C8F]">البريد الإلكتروني</h4>
-                    <a href="mailto:info@taskeen-estate.com" className="text-gray-600 text-sm hover:text-[#0A5C8F] transition-colors block">info@taskeen-estate.com</a>
+                    <a href="mailto:sales@madarelkhalij.com" className="text-gray-600 text-sm hover:text-[#0A5C8F] transition-colors block">sales@madarelkhalij.com</a>
                   </div>
                 </div>
               </div>

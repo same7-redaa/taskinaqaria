@@ -19,7 +19,7 @@ const Header: React.FC = () => {
           <a href="#" className="flex items-center gap-3">
             <img 
               src={scrolled ? "/Artboard 1@4x-8.png" : "/Artboard 5@4x-8.png"}
-              alt="نخبة تسكين" 
+              alt="نخبة Taskin" 
               className="h-14 md:h-16 lg:h-18 w-auto object-contain transition-all duration-300"
             />
           </a>

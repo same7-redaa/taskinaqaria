@@ -16,11 +16,11 @@ const About: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-24">
           <div className="order-2 lg:order-1">
             <span className="text-[#C9A96E] font-black text-sm tracking-widest uppercase mb-4 block">نبذة عن الشركة</span>
-            <h2 className="text-3xl md:text-4xl font-black text-[#0A5C8F] mb-8 leading-tight">
+            <h2 className="text-2xl md:text-3xl font-black text-[#0A5C8F] mb-8 leading-tight">
               نعمل على تحويل الأفكار إلى <br /> <span className="text-[#C9A96E]">فرص استثمارية ناجحة</span>
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed font-medium">
-              نخبة تسكين العقارية شركة ذات مسؤولية محدودة، متخصصة في <strong className="text-[#0A5C8F]">العقارات التجارية والإدارية والطبية</strong>. نقدم خدمات متكاملة في إدارة الاستثمار وتطوير المشاريع، ونحول الأفكار إلى فرص استثمارية ناجحة من خلال التخطيط الاستراتيجي والتحليل المالي والإدارة الاحترافية للأصول.
+              نخبة Taskin العقارية شركة ذات مسؤولية محدودة، متخصصة في <strong className="text-[#0A5C8F]">العقارات التجارية والإدارية والطبية</strong>. نقدم خدمات متكاملة في إدارة الاستثمار وتطوير المشاريع، ونحول الأفكار إلى فرص استثمارية ناجحة من خلال التخطيط الاستراتيجي والتحليل المالي والإدارة الاحترافية للأصول.
             </p>
             <div className="grid sm:grid-cols-2 gap-6">
               <div className="bg-white p-8 rounded-lg soft-glow border border-[#C9A96E]/30 hover:border-[#C9A96E]/60 transition-all duration-300">
