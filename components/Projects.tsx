@@ -83,7 +83,7 @@ const Projects: React.FC = () => {
             <div className="bg-white rounded-lg overflow-hidden soft-glow border border-[#C9A96E]/20 hover:border-[#C9A96E]/50 transition-all duration-300 group">
               <div className="relative h-64 overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800" 
+                  src="/pride-joy-offices.jpeg" 
                   alt="برج المكاتب الإدارية" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
