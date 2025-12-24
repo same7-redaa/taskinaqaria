@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
           </div>
           
           <h1 className="reveal active text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black text-white mb-6 sm:mb-8 leading-tight sm:leading-[1.1] drop-shadow-2xl px-2 lg:whitespace-nowrap">
-            نخبة <span className="text-[#C9A96E] drop-shadow-none">Taskin</span> العقارية
+            نخبة <span className="text-[#C9A96E] drop-shadow-none">تسكين</span> العقارية
           </h1>
           
           <p className="reveal active text-base sm:text-lg md:text-xl lg:text-2xl text-white/95 mb-8 sm:mb-12 max-w-2xl leading-relaxed font-medium drop-shadow-lg px-4">
