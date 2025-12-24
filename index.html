@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/Artboard 5@4x-8.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>نخبة تسكين العقارية | Nukhbat Taskeen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Tajawal', sans-serif;
+        background-color: #FAF9F6;
+        color: #1a1a1a;
+        overflow-x: hidden;
+      }
+      .soft-glow {
+        box-shadow: 0 10px 40px -10px rgba(10, 92, 143, 0.15);
+      }
+      
+      /* Opening Animation */
+      @keyframes slideUpFade {
+        from {
+          opacity: 0;
+          transform: translateY(40px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .animate-opening {
+        animation: slideUpFade 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+      }
+
+      /* Scroll Reveal Classes */
+      .reveal {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: all 1s cubic-bezier(0.22, 1, 0.36, 1);
+        will-change: transform, opacity;
+      }
+      .reveal.active {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* Fade In Up Animation */
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .fade-in-up {
+        animation: fadeInUp 0.8s ease-out forwards;
+      }
+
+      /* Stagger delays for elements */
+      .delay-100 { animation-delay: 0.1s; }
+      .delay-200 { animation-delay: 0.2s; }
+      .delay-300 { animation-delay: 0.3s; }
+      .delay-400 { animation-delay: 0.4s; }
+      .delay-500 { animation-delay: 0.5s; }
+      .delay-600 { animation-delay: 0.6s; }
+      
+      .hero-gradient {
+        background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.1) 50%, rgba(250,249,246,1) 98%);
+      }
+
+      @keyframes fade-in {
+        from { opacity: 0; scale: 1.1; }
+        to { opacity: 1; scale: 1; }
+      }
+      .animate-fade {
+        animation: fade-in 1.8s ease-out forwards;
+      }
+
+      /* Smooth Scroll */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
