@@ -38,6 +38,78 @@ const Projects: React.FC = () => {
           ))}
         </div>
 
+        {/* Managed Projects Section */}
+        <div className="mb-20">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl font-black text-[#0A5C8F] mb-3">مشاريعنا المُدارة</h3>
+            <p className="text-gray-600">مشاريع قائمة نديرها ونشغلها بكفاءة عالية</p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Service Centers Project */}
+            <div className="bg-white rounded-lg overflow-hidden soft-glow border border-[#C9A96E]/20 hover:border-[#C9A96E]/50 transition-all duration-300 group">
+              <div className="relative h-64 overflow-hidden">
+                <img 
+                  src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?auto=format&fit=crop&q=80&w=800" 
+                  alt="مراكز صيانة السيارات" 
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                <div className="absolute top-4 right-4">
+                  <span className="bg-[#0A5C8F] text-white px-4 py-2 rounded-full text-xs font-bold">قائم ومُدار</span>
+                </div>
+              </div>
+              <div className="p-8">
+                <h4 className="text-2xl font-black text-[#0A5C8F] mb-3">مراكز صيانة السيارات</h4>
+                <p className="text-gray-600 mb-6 leading-relaxed">مجمع متكامل لمراكز صيانة السيارات نديره ونشغله بمعايير احترافية عالية</p>
+                <a 
+                  href="https://maps.app.goo.gl/hg9Ae4GHeYxJc7AH8" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-[#0A5C8F] text-white px-6 py-3 rounded-full font-bold hover:bg-[#084a73] transition-all hover:gap-3 group"
+                >
+                  <span>عرض الموقع</span>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            {/* Administrative Offices Project */}
+            <div className="bg-white rounded-lg overflow-hidden soft-glow border border-[#C9A96E]/20 hover:border-[#C9A96E]/50 transition-all duration-300 group">
+              <div className="relative h-64 overflow-hidden">
+                <img 
+                  src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800" 
+                  alt="برج المكاتب الإدارية" 
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                <div className="absolute top-4 right-4">
+                  <span className="bg-[#0A5C8F] text-white px-4 py-2 rounded-full text-xs font-bold">قائم ومُدار</span>
+                </div>
+              </div>
+              <div className="p-8">
+                <h4 className="text-2xl font-black text-[#0A5C8F] mb-3">برج برايد اند جوي - مكاتب إدارية</h4>
+                <p className="text-gray-600 mb-6 leading-relaxed">مكاتب إدارية حديثة نملكها ونديرها ونؤجرها بمواصفات عالمية في موقع استراتيجي</p>
+                <a 
+                  href="https://maps.app.goo.gl/GyqiScW2PzedfpYHA?g_st=iw" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-[#0A5C8F] text-white px-6 py-3 rounded-full font-bold hover:bg-[#084a73] transition-all hover:gap-3 group"
+                >
+                  <span>عرض الموقع</span>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Progress Section */}
         <div className="bg-white p-12 rounded-lg soft-glow border border-[#C9A96E]/30">
           <h3 className="text-2xl font-extrabold mb-10 text-center text-[#0A5C8F]">متابعة سير الأعمال</h3>
