@@ -18,7 +18,7 @@ const Services: React.FC = () => {
             <h3 className="text-2xl font-black whitespace-nowrap">إدارة التطوير العقاري</h3>
             <div className="h-[2px] flex-1 bg-gradient-to-l from-[#C9A96E]/50 to-transparent"></div>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {DEVELOPMENT_SERVICES.map((service, idx) => (
               <div 
                 key={idx} 
@@ -39,7 +39,7 @@ const Services: React.FC = () => {
           {/* Asset Management */}
           <div className="bg-[#F3F1ED] p-12 rounded-lg border border-[#C9A96E]/20">
             <h3 className="text-3xl font-black mb-10 text-[#0A5C8F]">إدارة وتشغيل الأصول</h3>
-            <div className="grid sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4">
               {ASSET_SERVICES.map((item, idx) => (
                 <div key={idx} className="flex items-center gap-4 bg-white/60 backdrop-blur-sm p-5 rounded-lg hover:bg-white transition-all duration-300 border border-[#C9A96E]/20">
                   <div className="bg-[#C9A96E]/30 p-2 rounded-lg">
