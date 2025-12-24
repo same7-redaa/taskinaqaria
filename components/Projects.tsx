@@ -50,8 +50,8 @@ const Projects: React.FC = () => {
             <div className="bg-white rounded-lg overflow-hidden soft-glow border border-[#C9A96E]/20 hover:border-[#C9A96E]/50 transition-all duration-300 group">
               <div className="relative h-64 overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?auto=format&fit=crop&q=80&w=800" 
-                  alt="مراكز صيانة السيارات" 
+                  src="/car-services-complex.jpeg" 
+                  alt="مجمع متكامل لكل خدمات السيارات" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
@@ -60,8 +60,8 @@ const Projects: React.FC = () => {
                 </div>
               </div>
               <div className="p-8">
-                <h4 className="text-2xl font-black text-[#0A5C8F] mb-3">مراكز صيانة السيارات</h4>
-                <p className="text-gray-600 mb-6 leading-relaxed">مجمع متكامل لمراكز صيانة السيارات نديره ونشغله بمعايير احترافية عالية</p>
+                <h4 className="text-2xl font-black text-[#0A5C8F] mb-3">مجمع متكامل لكل خدمات السيارات</h4>
+                <p className="text-gray-600 mb-6 leading-relaxed">مجمع شامل يقدم جميع خدمات السيارات داخل مكة المكرمة، نديره ونشغله بمعايير احترافية عالية</p>
                 <a 
                   href="https://maps.app.goo.gl/hg9Ae4GHeYxJc7AH8" 
                   target="_blank" 
