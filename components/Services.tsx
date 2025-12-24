@@ -52,16 +52,16 @@ const Services: React.FC = () => {
           </div>
 
           {/* Investment Management */}
-          <div className="bg-[#1a1a1a] p-12 rounded-lg text-white overflow-hidden relative group">
+          <div className="bg-[#1a1a1a] p-8 md:p-12 rounded-lg text-white overflow-hidden relative group">
             <div className="relative z-10">
-              <h3 className="text-3xl font-black mb-10">إدارة الاستثمار العقاري</h3>
-              <div className="grid sm:grid-cols-2 gap-6">
+              <h3 className="text-2xl md:text-3xl font-black mb-8">إدارة الاستثمار العقاري</h3>
+              <div className="grid grid-cols-2 sm:grid-cols-2 gap-4 md:gap-6">
                 {INVESTMENT_SERVICES.map((service, idx) => (
-                  <div key={idx} className="flex flex-col gap-5 border border-white/10 p-8 rounded-lg hover:bg-white/5 hover:border-white/20 transition-all duration-300">
-                    <div className="text-[#C9A96E] bg-white/5 w-14 h-14 rounded-xl flex items-center justify-center">
-                      {React.cloneElement(service.icon as React.ReactElement, { size: 28 })}
+                  <div key={idx} className="flex flex-col gap-3 md:gap-5 border border-white/10 p-4 md:p-8 rounded-lg hover:bg-white/5 hover:border-white/20 transition-all duration-300">
+                    <div className="text-[#C9A96E] bg-white/5 w-10 h-10 md:w-14 md:h-14 rounded-xl flex items-center justify-center">
+                      {React.cloneElement(service.icon as React.ReactElement, { size: 20, className: "md:w-7 md:h-7" })}
                     </div>
-                    <h4 className="font-black text-xl">{service.title}</h4>
+                    <h4 className="font-black text-sm md:text-xl leading-tight">{service.title}</h4>
                   </div>
                 ))}
               </div>
