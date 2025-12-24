@@ -20,7 +20,7 @@ const About: React.FC = () => {
               نعمل على تحويل الأفكار إلى <br /> <span className="text-[#C9A96E]">فرص استثمارية ناجحة</span>
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed font-medium">
-              نخبة Taskin العقارية شركة ذات مسؤولية محدودة، متخصصة في <strong className="text-[#0A5C8F]">العقارات التجارية والإدارية والطبية</strong>. نقدم خدمات متكاملة في إدارة الاستثمار وتطوير المشاريع، ونحول الأفكار إلى فرص استثمارية ناجحة من خلال التخطيط الاستراتيجي والتحليل المالي والإدارة الاحترافية للأصول.
+              نخبة تسكين العقارية شركة ذات مسؤولية محدودة، متخصصة في <strong className="text-[#0A5C8F]">العقارات التجارية والإدارية والطبية</strong>. نقدم خدمات متكاملة في إدارة الاستثمار وتطوير المشاريع، ونحول الأفكار إلى فرص استثمارية ناجحة من خلال التخطيط الاستراتيجي والتحليل المالي والإدارة الاحترافية للأصول.
             </p>
             <div className="grid sm:grid-cols-2 gap-6">
               <div className="bg-white p-8 rounded-lg soft-glow border border-[#C9A96E]/30 hover:border-[#C9A96E]/60 transition-all duration-300">
@@ -36,7 +36,7 @@ const About: React.FC = () => {
           
           <div className="relative order-1 lg:order-2">
             <div className="rounded-lg overflow-hidden soft-glow aspect-square md:aspect-[4/5] transform hover:scale-[1.02] transition-transform duration-500">
-              <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1000" alt="Office Professional" className="w-full h-full object-cover" />
+              <img src="https://i.pinimg.com/736x/56/04/b6/5604b63bc0546fc3432d1fa074dcf80d.jpg" alt="Office Professional" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-[#0A5C8F]/10 mix-blend-multiply"></div>
             </div>
             {/* Experience badge */}

@@ -17,7 +17,7 @@ const Certificate: React.FC = () => {
           </div>
           <h2 className="text-3xl md:text-4xl font-black text-[#0A5C8F] mb-4">شهادة السجل التجاري</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            نخبة Taskin العقارية شركة مسجلة ومعتمدة رسمياً في المملكة العربية السعودية
+            نخبة تسكين العقارية شركة مسجلة ومعتمدة رسمياً في المملكة العربية السعودية
           </p>
         </div>
 
@@ -26,7 +26,7 @@ const Certificate: React.FC = () => {
             <div className="relative group">
               <img 
                 src="/شهادة السجل التجاري.jpg" 
-                alt="شهادة السجل التجاري لشركة نخبة Taskin العقارية" 
+                alt="شهادة السجل التجاري لشركة نخبة تسكين العقارية" 
                 className="w-full h-auto rounded-lg shadow-lg transition-transform duration-500 group-hover:scale-[1.02]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>

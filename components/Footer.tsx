@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
             <a href="#" className="mb-6 block">
               <img 
                 src="/Artboard 5@4x-8.png" 
-                alt="نخبة Taskin" 
+                alt="نخبة تسكين" 
                 className="h-32 md:h-40 w-auto object-contain"
               />
             </a>
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-bold text-gray-500 uppercase tracking-widest">
-          <p>© {new Date().getFullYear()} نخبة Taskin العقارية. جميع الحقوق محفوظة.</p>
+          <p>© {new Date().getFullYear()} نخبة تسكين العقارية. جميع الحقوق محفوظة.</p>
           <div className="flex gap-8">
             <a href="#" className="hover:text-white transition-colors">سياسة الخصوصية</a>
             <a href="#" className="hover:text-white transition-colors">الشروط والأحكام</a>
