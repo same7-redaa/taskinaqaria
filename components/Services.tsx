@@ -37,15 +37,15 @@ const Services: React.FC = () => {
         {/* Two Columns for Asset and Investment */}
         <div className="grid lg:grid-cols-2 gap-10">
           {/* Asset Management */}
-          <div className="bg-[#F3F1ED] p-12 rounded-lg border border-[#C9A96E]/20">
-            <h3 className="text-3xl font-black mb-10 text-[#0A5C8F]">إدارة وتشغيل الأصول</h3>
-            <div className="grid grid-cols-2 gap-4">
+          <div className="bg-[#F3F1ED] p-6 md:p-12 rounded-lg border border-[#C9A96E]/20">
+            <h3 className="text-2xl md:text-3xl font-black mb-8 md:mb-10 text-[#0A5C8F]">إدارة وتشغيل الأصول</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
               {ASSET_SERVICES.map((item, idx) => (
-                <div key={idx} className="flex items-center gap-4 bg-white/60 backdrop-blur-sm p-5 rounded-lg hover:bg-white transition-all duration-300 border border-[#C9A96E]/20">
-                  <div className="bg-[#C9A96E]/30 p-2 rounded-lg">
-                    <CheckCircle2 size={20} className="text-[#0A5C8F] shrink-0" />
+                <div key={idx} className="flex items-center gap-3 bg-white/60 backdrop-blur-sm p-4 md:p-5 rounded-lg hover:bg-white transition-all duration-300 border border-[#C9A96E]/20">
+                  <div className="bg-[#C9A96E]/30 p-2 rounded-lg shrink-0">
+                    <CheckCircle2 size={18} className="text-[#0A5C8F]" />
                   </div>
-                  <span className="text-sm font-bold text-gray-800">{item}</span>
+                  <span className="text-xs md:text-sm font-bold text-gray-800 leading-tight break-words">{item}</span>
                 </div>
               ))}
             </div>
