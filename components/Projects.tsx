@@ -4,9 +4,11 @@ import { PROJECT_TYPES } from '../constants';
 
 const Projects: React.FC = () => {
   const ongoingProjects = [
-    { title: 'برج النخبة الإداري', progress: 65, status: 'تحت التنفيذ' },
-    { title: 'مركز الخدمات اللوجستية', progress: 40, status: 'تحت التنفيذ' },
-    { title: 'مجمع مكة التجاري', progress: 10, status: 'تحت الدراسة' },
+    { title: 'لوجستيك بارك', progress: 30, status: 'تحت التنفيذ' },
+    { title: 'اوتو سبير بارك', progress: 80, status: 'تحت التنفيذ' },
+    { title: 'اوتو بارك', progress: 10, status: 'تحت الدراسة' },
+    { title: 'واجهة مزار', progress: 0, status: 'تحت الدراسة' },
+    { title: 'ڤي يارد', progress: 0, status: 'تحت الدراسة' },
   ];
 
   return (
@@ -113,7 +115,7 @@ const Projects: React.FC = () => {
         {/* Progress Section */}
         <div className="bg-white p-12 rounded-lg soft-glow border border-[#C9A96E]/30">
           <h3 className="text-2xl font-extrabold mb-10 text-center text-[#0A5C8F]">متابعة سير الأعمال</h3>
-          <div className="grid md:grid-cols-3 gap-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {ongoingProjects.map((proj, idx) => (
               <div key={idx}>
                 <div className="flex justify-between items-center mb-4">
