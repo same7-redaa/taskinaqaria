@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="reveal active text-base sm:text-lg md:text-xl lg:text-2xl text-white/95 mb-8 sm:mb-12 max-w-2xl leading-relaxed font-medium drop-shadow-lg px-4">
-            شركة سعودية متخصصة في إدارة الاستثمار والتطوير العقاري، نقدم حلولًا متكاملة قائمة على دراسات تحليلية عميقة لخلق فرص استثمارية مستدامة.
+            متخصصون في العقارات التجارية والإدارية والطبية. نحول الأفكار إلى فرص استثمارية ناجحة من خلال حلول متكاملة قائمة على التحليل والخبرة.
           </p>
           
           <div className="reveal active flex flex-col sm:flex-row gap-4 sm:gap-6 w-full px-4 sm:px-0 justify-center">

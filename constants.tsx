@@ -66,8 +66,8 @@ export const INVESTMENT_SERVICES = [
 ];
 
 export const PROJECT_TYPES = [
-  { title: 'مجمعات لوجيستية', image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800' },
-  { title: 'مراكز صيانة سيارات', image: 'https://images.unsplash.com/photo-1625047509168-a7026f36de04?auto=format&fit=crop&q=80&w=800' },
-  { title: 'مكاتب إدارية', image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800' },
-  { title: 'مجمعات تجارية', image: 'https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?auto=format&fit=crop&q=80&w=800' }
+  { title: 'مجمعات تجارية', image: 'https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?auto=format&fit=crop&q=80&w=800' },
+  { title: 'مباني إدارية', image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800' },
+  { title: 'مجمعات طبية', image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800' },
+  { title: 'مراكز لوجستية', image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800' }
 ];

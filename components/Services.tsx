@@ -9,7 +9,7 @@ const Services: React.FC = () => {
       <div className="container mx-auto px-6 md:px-12">
         <div className="text-center mb-20">
           <span className="text-[#C9A96E] font-black text-sm tracking-widest uppercase mb-4 block">خدماتنا التخصصية</span>
-          <h2 className="text-3xl md:text-4xl font-black text-[#0A5C8F]">حلول عقارية متكاملة وشاملة</h2>
+          <h2 className="text-3xl md:text-4xl font-black text-[#0A5C8F]">حلول متكاملة للعقارات التجارية والإدارية والطبية</h2>
         </div>
 
         {/* Development Management */}
